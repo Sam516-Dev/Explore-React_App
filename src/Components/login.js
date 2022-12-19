@@ -13,11 +13,11 @@ export default function login() {
 
   return (
     <Container>
-    <Heading>Log in to your account</Heading>
+    <Heading> Please Login into your account</Heading>
     <Form>
-      <Input type="email" placeholder="Email" />
+      <Input type="text" placeholder="Username" />
       <Input type="password" placeholder="Password" />
-      <Button type="submit">Log in</Button>
+      <Button type="submit">Login</Button>
     </Form>
   </Container>
   )
